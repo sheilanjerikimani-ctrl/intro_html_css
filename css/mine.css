@@ -1,0 +1,42 @@
+.row{
+    display:flex;
+    /* flex wrap used for jumping to the next row if something doesn't fit */
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.col{
+    border: 1px solid rgb(0, 183, 255);
+     width: 24%; 
+}
+p{
+    text-align: center;
+}
+/* Media queries */
+/* Medium devices eg tablet, laptops */
+@media screen and (min-width:768px) and (max-width:1023px){
+    p{
+        color:#d2691e;
+    }
+    .col{
+        width:46%;
+        margin:12px;
+    }
+    
+}
+/* devices like mobile-phones */
+
+@media screen and (max-width:767px){
+    .col{
+        width:100%;
+        margin-bottom:12px;
+    }
+    p{
+        color:#49863d;
+    }
+    
+}
+/* sm md lg xl xxl */
+/* CSS frameworks --Bootstrap 5 Tailwind --Bulma-- --Chakra -- code that is already done for me 95%. I do like 5% */
+/* Python --django */
+/* JS --React */
+/* Framework - classes are already written for me */
