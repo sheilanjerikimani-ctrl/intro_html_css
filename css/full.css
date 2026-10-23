@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+
+/* font-family: "PT Sans", sans-serif; */
+:root {
+    --brand-green: #159957;
+    --brand-dark: #1f2d3d;
+    --soft-bg: #f4f8f7;
+
+
+
+
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    color: var(--brand-dark);
+
+}
+
+.navbar-brand {
+    color: var(--brand-green);
+    font-size;
+    1.4rem;
+
+}
+
+#goods {
+    color: var(--brand-dark);
+}
+
+.navbar-brand:hover {
+    color: #02361e;
+
+}
+
+.nav-link {
+    color: #536171 !important;
+    font-weight: 900;
+}
+
+.nav-link.active {
+    color: #536171 !important;
+
+}
+
+.nav-link:hover {
+    color: var(--brand-green) !important;
+}
+
+.btn-success {
+    background-color: var(--brand-green);
+    border-color: var(--brand-green);
+    border-radius: 3px;
+    transition: all 2s;
+}
+
+.btn-success:hover {
+    background-color: hsl(145, 85%, 49%);
+    border-color: #159957
+}
+
+.hero {
+    background: linear-gradient(to right, hsl(165, 11%, 93%), #a5e0cd)
+}
+
+.hero .small-heading {
+    color: var(--brand-green);
+    font-weight: 800;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+}
+
+.card {
+    border-color: #e5ece9;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 44px -49px 5px -25px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 44px -49px 5px -25px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 44px -49px 5px -25px rgba(0, 0, 0, 0.75);
+
+    /* https://cssgenerator.org/box-shadow-css-generator.html */
+.card img{
+    width: 100px;
+    height: 330px;
+    object-fit:cover;
+}
+.card-title{
+    font-size:1.05rem;
+    font-weight: 700;
+}
+.price{
+    color:var(--brand-green);
+    font-weight:700;
+
+}
+.about-section{
+    background-color: var(--soft-bg);
+}
+.about-section i{
+    color:var(--brand-green);
+    font-size:2.3rem;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    color:var(--brand-green);
+    
+}
+.copyright{
+    background-color: #0d1116;
+}
+
+
+
+
+
+
+}
